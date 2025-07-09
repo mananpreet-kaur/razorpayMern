@@ -1,3 +1,6 @@
+import dotenv from 'dotenv'; 
+dotenv.config({path:"./config/config.env"});
+
 import { app } from "./App.js";
 
 app.listen(process.env.PORT, () =>
